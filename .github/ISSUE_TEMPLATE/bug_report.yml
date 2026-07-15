@@ -7,7 +7,9 @@ body:
   - type: markdown
     attributes:
       value: |
+        이 제보는 공개됩니다. 원본 로그나 스크린샷을 바로 첨부하지 마세요.
         제보에 창 제목, 문서 내용, 계정 정보 등 개인정보를 포함하지 마세요.
+        This report is public. Do not attach raw logs or screenshots before checking them.
         Please do not include window titles, document contents, account details, or other personal data.
 
   - type: input
@@ -46,6 +48,13 @@ body:
         - 기타 / Other
     validations:
       required: true
+
+  - type: input
+    id: display-setup
+    attributes:
+      label: 모니터 구성 / Display setup
+      description: 모니터 수, 회전, 해상도 또는 배율을 개인정보 없이 적어주세요.
+      placeholder: "예: 내장 1대 + 외장 1대(세로), 기본 배율"
 
   - type: textarea
     id: description

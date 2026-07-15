@@ -21,3 +21,5 @@ This repository hosts the official notarized TWMA public beta DMG and checksums.
 - Requirements: Apple Silicon Mac, macOS 14 or later
 - Website: [TWMA](https://twma-for-mac.mamasgun.chatgpt.site)
 - Bug reports: [Open an issue](https://github.com/4celain/twma-releases/issues/new?template=bug_report.yml)
+
+© 2026 4celain. All rights reserved.

@@ -1,0 +1,71 @@
+name: 버그 제보 / Bug report
+description: TWMA 공개 베타에서 발생한 문제를 알려주세요.
+title: "[Bug] "
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        제보에 창 제목, 문서 내용, 계정 정보 등 개인정보를 포함하지 마세요.
+        Please do not include window titles, document contents, account details, or other personal data.
+
+  - type: input
+    id: twma-version
+    attributes:
+      label: TWMA 버전 / Version
+      placeholder: "예: 0.3.0-beta.1 (2)"
+    validations:
+      required: true
+
+  - type: input
+    id: macos-version
+    attributes:
+      label: macOS 버전 / macOS version
+      placeholder: "예: macOS 15.5"
+    validations:
+      required: true
+
+  - type: input
+    id: affected-app
+    attributes:
+      label: 영향을 받은 앱 / Affected app
+      description: 문제가 특정 앱에서 발생했다면 앱 이름만 적어주세요.
+      placeholder: "예: Google Chrome"
+
+  - type: dropdown
+    id: area
+    attributes:
+      label: 기능 / Area
+      options:
+        - 창 레이아웃 / Window layout
+        - 작업공간 저장 / Workspace save
+        - 작업공간 복원 / Workspace restore
+        - 앱 및 데이터 / App Behavior and data
+        - 권한·실행 / Permissions and launch
+        - 기타 / Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: 문제 설명 / What happened?
+      description: 재현 순서와 실제 결과를 개인정보 없이 간단히 적어주세요.
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: 기대한 결과 / Expected behavior
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: 개인정보 확인 / Privacy check
+      options:
+        - label: 제보 내용에 창 제목, 문서 내용, 계정 정보 등 개인정보가 없음을 확인했습니다.
+          required: true

@@ -2,7 +2,7 @@
 
 TWMA 공개 베타의 공식 DMG를 제공하는 저장소입니다.
 
-TWMA는 창을 배치하고, 작업공간으로 저장하고, 그대로 복원하는 macOS 메뉴 막대 앱입니다.
+TWMA는 창을 배치하고, 작업공간으로 저장하고, 그대로 복원하는 macOS 앱입니다.
 
 - 지원 환경: Apple Silicon Mac, macOS 14 이상
 - 최신 베타: [TWMA 0.3.0 Beta 6 (Build 8)](https://github.com/4celain/twma-releases/releases/tag/v0.3.0-beta.6)

@@ -16,7 +16,7 @@ body:
     id: twma-version
     attributes:
       label: TWMA 버전 / Version
-      placeholder: "예: 0.3.0-beta.6 (8)"
+      placeholder: "예: 0.3.0-beta.7 (9)"
     validations:
       required: true
 

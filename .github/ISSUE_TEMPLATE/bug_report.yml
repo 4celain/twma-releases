@@ -1,5 +1,5 @@
 name: 버그 제보 / Bug report
-description: TWMA 공개 베타에서 발생한 문제를 알려주세요.
+description: TWMA 공개 베타에서 발생한 문제를 알려주세요. / Report a public beta issue.
 title: "[Bug] "
 labels:
   - bug
@@ -16,7 +16,7 @@ body:
     id: twma-version
     attributes:
       label: TWMA 버전 / Version
-      placeholder: "예: 0.3.0-beta.7 (9)"
+      placeholder: "예: 0.3.0 Beta 8 (Build 10) / Example: 0.3.0 Beta 8 (Build 10)"
     validations:
       required: true
 
@@ -24,7 +24,7 @@ body:
     id: macos-version
     attributes:
       label: macOS 버전 / macOS version
-      placeholder: "예: macOS 15.5"
+      placeholder: "예: macOS 15.5 / Example: macOS 15.5"
     validations:
       required: true
 
@@ -32,8 +32,8 @@ body:
     id: affected-app
     attributes:
       label: 영향을 받은 앱 / Affected app
-      description: 문제가 특정 앱에서 발생했다면 앱 이름만 적어주세요.
-      placeholder: "예: Google Chrome"
+      description: 문제가 특정 앱에서 발생했다면 앱 이름만 적어주세요. / If the problem affects a specific app, enter only its name.
+      placeholder: "예: Google Chrome / Example: Google Chrome"
 
   - type: dropdown
     id: area
@@ -43,7 +43,8 @@ body:
         - 창 레이아웃 / Window layout
         - 작업공간 저장 / Workspace save
         - 작업공간 복원 / Workspace restore
-        - 앱 및 데이터 / App Behavior and data
+        - 앱 및 데이터 / Apps & Data
+        - 업데이트 / Updates
         - 권한·실행 / Permissions and launch
         - 기타 / Other
     validations:
@@ -53,14 +54,14 @@ body:
     id: display-setup
     attributes:
       label: 모니터 구성 / Display setup
-      description: 모니터 수, 회전, 해상도 또는 배율을 개인정보 없이 적어주세요.
-      placeholder: "예: 내장 1대 + 외장 1대(세로), 기본 배율"
+      description: 모니터 수, 회전, 해상도 또는 배율을 개인정보 없이 적어주세요. / Describe the display count, rotation, resolution, or scale without personal information.
+      placeholder: "예: 내장 1대 + 외장 1대(세로), 기본 배율 / Example: built-in + portrait external display, default scale"
 
   - type: textarea
     id: description
     attributes:
       label: 문제 설명 / What happened?
-      description: 재현 순서와 실제 결과를 개인정보 없이 간단히 적어주세요.
+      description: 재현 순서와 실제 결과를 개인정보 없이 간단히 적어주세요. / Briefly describe the steps and actual result without personal information.
     validations:
       required: true
 
@@ -76,5 +77,5 @@ body:
     attributes:
       label: 개인정보 확인 / Privacy check
       options:
-        - label: 제보 내용에 창 제목, 문서 내용, 계정 정보 등 개인정보가 없음을 확인했습니다.
+        - label: 제보 내용에 창 제목, 문서 내용, 계정 정보 등 개인정보가 없음을 확인했습니다. / I confirmed that this report contains no window titles, document contents, account details, or other personal information.
           required: true

@@ -36,23 +36,23 @@ TWMA is distributed directly rather than through the Mac App Store. Beta 7 must 
 
 <a id="in-action"></a>
 
-## In action · 주요 기능
+## In action
 
-### Drag to snap · 창 드래그 배치
+### Drag to snap
 
-![Safari와 Finder 창을 프리셋 영역으로 드래그해 배치하는 모습](assets/twma-drag-snap.webp)
+![Drag Safari and Finder windows into preset layout zones](assets/twma-drag-snap.webp)
 
-### Restore a workspace · 작업공간 복원
+### Restore a workspace
 
-![작업공간에 저장된 앱 창을 다시 복원하는 모습](assets/twma-workspace-restore.webp)
+![Restore app windows saved in a workspace](assets/twma-workspace-restore.webp)
 
-### Settings · 설정
+### Settings
 
-| General · 일반 | Layouts · 레이아웃 |
+| General | Layouts |
 | --- | --- |
-| ![일반 설정](assets/twma-settings-general.png) | ![레이아웃 설정](assets/twma-settings-layouts.png) |
-| Workspaces · 작업공간 | Apps & Data · 앱 및 데이터 |
-| ![작업공간 설정](assets/twma-settings-workspaces.png) | ![앱 및 데이터 설정](assets/twma-settings-apps-data.png) |
+| ![General settings](assets/twma-settings-general-en.png) | ![Layouts settings](assets/twma-settings-layouts-en.png) |
+| Workspaces | Apps & Data |
+| ![Workspaces settings](assets/twma-settings-workspaces-en.png) | ![Apps and Data settings](assets/twma-settings-apps-data-en.png) |
 
 ## Main features
 
@@ -100,7 +100,7 @@ TWMA stores workspace data and diagnostics locally. It has no account system, an
 
 TWMA는 창을 배치하고, 작업공간으로 저장하고, 나중에 다시 복원하는 macOS 메뉴 막대 앱입니다. 이 저장소는 TWMA 공개 베타의 공식 다운로드·지원 채널입니다.
 
-[주요 기능 동작과 설정 화면 보기](#in-action)
+[주요 기능 동작 보기](#in-action)
 
 ### 다운로드
 
@@ -127,6 +127,14 @@ shasum -a 256 TWMA-0.3.0-beta.8-build.10-arm64.dmg
 3. TWMA를 실행하고 안내에 따라 손쉬운 사용 권한을 허용합니다.
 
 Beta 7에서 Beta 8은 한 번 수동으로 설치해야 합니다. Beta 8부터는 이후 버전을 자동 또는 수동으로 확인할 수 있으며, 사용자가 승인할 때만 업데이트를 설치합니다.
+
+### 설정 화면
+
+| 일반 | 레이아웃 |
+| --- | --- |
+| ![일반 설정](assets/twma-settings-general.png) | ![레이아웃 설정](assets/twma-settings-layouts.png) |
+| 작업공간 | 앱 및 데이터 |
+| ![작업공간 설정](assets/twma-settings-workspaces.png) | ![앱 및 데이터 설정](assets/twma-settings-apps-data.png) |
 
 ### 주요 기능
 

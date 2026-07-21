@@ -1,0 +1,53 @@
+<?xml version="1.0" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>TWMA</title>
+        <item>
+            <title>0.3.0</title>
+            <pubDate>Wed, 22 Jul 2026 01:49:21 +0900</pubDate>
+            <link>https://github.com/4celain/twma-releases/releases/tag/v0.3.0-beta.8</link>
+            <sparkle:version>10</sparkle:version>
+            <sparkle:shortVersionString>0.3.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# TWMA 0.3.0 Beta 8 (Build 10)
+
+- 지원 환경: macOS 14 이상, Apple Silicon
+- 다운로드 파일: `TWMA-0.3.0-beta.8-build.10-arm64.dmg`
+- 이전 버전: Beta 7 Build 9
+
+이번 후보는 작업공간 편집과 창 복원, 다음 버전 연결을 마무리한 TWMA의 마지막 공개 베타입니다.
+
+## 이번 변경사항
+
+- 작업공간 화면을 탭과 선택 카드 한 장으로 정리하고, 단축키·복원 시 적용할 레이아웃·주요 동작을 카드 상단에서 바로 사용할 수 있게 했습니다. 레이아웃 화면은 선택한 모니터의 해상도·화면비에 맞는 항목과 개수만 보여줍니다.
+- 앱 아이콘을 드래그해 영역과 앞뒤 순서를 정하거나 복원 대상에서 제외할 수 있습니다. `업데이트`는 현재 화면의 앱당 대표 창 한 개로 다시 저장하며, 열려 있지 않은 앱은 작업공간에서 빠집니다.
+- 선택한 보조키와 방향키로 현재 창을 인접 영역으로 옮길 수 있으며, 최소화되었거나 마지막 창이 닫힌 앱의 복원 안정성을 높였습니다. 자동 숨김 Dock은 별도 빈 공간을 남기지 않고 화면 전체를 사용합니다.
+- 새 버전을 자동 또는 수동으로 확인하고 사용자 승인 후 설치할 수 있습니다. Beta 7에서 Beta 8은 한 번 수동 설치해야 하며, 앱 안 업데이트는 Beta 8 이후 버전부터 연결됩니다.
+
+## 검증
+
+27개 테스트 묶음의 255개 테스트, Thread Sanitizer와 Address Sanitizer, Debug·Release warnings-as-errors 빌드를 통과했습니다.
+
+<details>
+<summary>English</summary>
+
+This is TWMA's final public beta candidate, completing workspace editing, window restoration, and the update path for later releases.
+
+## Changes
+
+- Workspaces now use tabs and one selected card, with the shortcut, restore layout, and primary actions available from the card header. The layout screen shows only the choices and count suited to the selected display's resolution and aspect ratio.
+- Drag app icons between areas, reorder foreground priority, or exclude apps from restoration. Update keeps one representative window per currently visible app and removes apps that are no longer open.
+- Move the focused window between adjacent preset areas with a chosen modifier and arrow keys, with more reliable restoration of minimized apps and apps whose last window was closed. An auto-hidden Dock no longer leaves a reserved strip.
+- Check for updates automatically or manually and install only after approval. Beta 7 must be upgraded to Beta 8 manually once; in-app updates begin with versions released after Beta 8.
+
+## Verification
+
+Passed 255 tests across 27 suites, Thread Sanitizer, Address Sanitizer, and warnings-as-errors Debug and Release builds.
+
+</details>
+]]></description>
+            <enclosure url="https://github.com/4celain/twma-releases/releases/download/v0.3.0-beta.8/TWMA-0.3.0-beta.8-build.10-arm64.dmg" length="2618679" type="application/octet-stream" sparkle:edSignature="YAyUf5otLazErD+vBEdyPOfCEP78mnbOkFrvJjRN2+R97ipEEg5hsipJPR2Fx9XnPdNBW6X4PbKkJrr4gdXlAg=="/>
+        </item>
+    </channel>
+</rss>
